@@ -1,2 +1,2 @@
 
-(ioThinx WEB API)[https://github.com/enigma-weekend-projects/tree/main/iothinx-web-api.md]
+[ioThinx WEB API](https://github.com/enigma-weekend-projects/Moxa-ioThinx-4510-Hacking/tree/main/iothinx-web-api.md)
