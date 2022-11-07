@@ -1,0 +1,7 @@
+{
+  "domain": "iothinx",
+  "name": "Moxa ioThinx SNMP IO interface",
+  "documentation": "",
+  "codeowners": [],
+  "quality_scale": "silver"
+}
