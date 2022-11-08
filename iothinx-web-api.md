@@ -44,7 +44,7 @@
 | PUT   | `/action/device/safeMode`			|					| Переводит утройство в защищенный режим				|
 | PUT   | `/action/device/settime`			|					| Установить время				|
 | PUT   | `/action/system/restarting`			|					| Перезагружает устройство				|
-| PUT   | `/action/io/ai/aiResetMinMaxValue/{direction}/{slotNumber}/{port}`			|					| Сброс минимальных/максимальных значений аналогового порта 				|
+| PUT   | `/action/io/ai/aiResetMinMaxValue/{direction}/{slotNumber}/{port}`			|					| Настройки специфичные для модулей, подробней можно смотреть окне самого модуля				|
 | PUT   | `/action/io/ao/aoValueScaled/{direction}/{slotNumber}/{port}`			|					| 				|
 | PUT   | `/action/io/di/diCounterStatus/{direction}/{slotNumber}/{port}`			|					| 				|
 | PUT   | `/action/io/di/diCounterValue/{direction}/{slotNumber}/{port}`			|					| 				|
@@ -60,20 +60,20 @@
 
 | Метод | URL 							| Параметры			| Описание 												|
 |-------|-------------------------------|-------------------|-------------------------------------------------------|
-| POST   | `/action/login`			|					| 				|
-| POST   | `/action/logout`			|					| 				|
-| POST   | `/action/slot0/firmware`			|					| 				|
-| POST   | `/action/system/config`			|					| 				|
-| POST   | `/action/system/sconfig/`			|					| 				|
-| POST   | `/action/system/config/1`			|					| 				|
-| POST   | `/action/system/config/2`			|					| 				|
-| POST   | `/action/system/config/3`			|					| 				|
-| POST   | `/action/system/config/4`			|					| 				|
-| POST   | `/action/system/config/5`			|					| 				|
-| POST   | `/action/system/config/6`			|					| 				|
-| POST   | `/action/system/config/7`			|					| 				|
-| POST   | `/action/system/config/8`			|					| 				|
-| POST   | `/action/system/config/9`			|					| 				|
-| POST   | `/action/system/config/10`			|					| 				|
-| POST   | `/action/system/config/11`			|					| 				|
+| POST   | `/action/login`			|					| Авторизация на устройстве				|
+| POST   | `/action/logout`			|					| Сброс Авторизации				|
+| POST   | `/action/slot0/firmware`			|					| Загрузка прошивки (Не желательно использовать - возможно окерпичивание)				|
+| POST   | `/action/system/config`			| 					| Запись настроек, не удалось понять каких				|
+| POST   | `/action/system/sconfig/`			| 					| Запись настроек, не удалось понять каких 			|
+| POST   | `/action/system/config/1`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/2`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/3`			|    				| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/4`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/5`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/6`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/7`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/8`			|					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/9`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/10`			| 					| Запись настроек, аналогично чтению				|
+| POST   | `/action/system/config/11`			| 					| Запись настроек, аналогично чтению				|
 | DELETE   | `/action/slot0/config`			|					| Сброс к заводским настроек (но это не точно...)				|
