@@ -44,6 +44,7 @@
 | PUT   | `/action/device/safeMode`			|					| Переводит утройство в защищенный режим				|
 | PUT   | `/action/device/settime`			|					| Установить время				|
 | PUT   | `/action/system/restarting`			|					| Перезагружает устройство				|
+| PUT   | `/action/locate/{direction}/{slotNumber}`			|					| Включиает/выключает индикацию на модуле, удобен для визуализации модуля в "шкафу" 				|
 | PUT   | `/action/io/ai/aiResetMinMaxValue/{direction}/{slotNumber}/{port}`			|					| Настройки специфичные для модулей, подробней можно смотреть окне самого модуля				|
 | PUT   | `/action/io/ao/aoValueScaled/{direction}/{slotNumber}/{port}`			|					| 				|
 | PUT   | `/action/io/di/diCounterStatus/{direction}/{slotNumber}/{port}`			|					| 				|
@@ -54,7 +55,6 @@
 | PUT   | `/action/io/rtd/calibration/{direction}/{slotNumber}/{port}`			|					| 				|
 | PUT   | `/action/io/tc/tcResetMinMaxValue/{direction}/{slotNumber}/{port}`			|					| 				|
 | PUT   | `/action/io/tc/calibration/{direction}/{slotNumber}/{port}`			|					| 				|
-| PUT   | `/action/locate/{direction}/{slotNumber}`			|					| 				|
 
 ## Команды установкинастроек и авторизации
 
